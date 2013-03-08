@@ -1,0 +1,2 @@
+serviceClass: com.appspot.sendmail.client.SendMassageService
+path: 9DA85B7348432F9C644F1958C3AE0C59.gwt.rpc

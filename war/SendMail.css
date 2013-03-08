@@ -1,0 +1,78 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+html {
+	height: 100%;
+}
+body.myApp {
+   
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, white)) fixed;
+    background: -moz-linear-gradient(bottom, white, #999999) fixed;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  
+}
+#tableContainer {
+	margin: 0 auto;
+	padding: 0 0;
+	width: 900px;
+	 -moz-box-shadow:    -2px -2px 5px 3px #666666;
+    -webkit-box-shadow: -2px -2px 5px 3px #666666;
+    box-shadow:         -2px -2px 5px 3px #666666;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3b76b3), color-stop(1, #000066));
+    background: -moz-linear-gradient(bottom, #000066, #3b76b3);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	clear: both;
+}
+#inputInfo {
+	margin: 0 auto;
+	padding: 0 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 800px;
+	clear: both;
+}
+.image {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 3px solid white;
+	cursor: hand;
+	cursor: pointer;
+}
+.toppad {
+	padding-bottom: 10px;
+}
+table.MyApp {
+	padding-left: 30px;
+	 
+}
+table.MyApp td, table.MyApp th {
+	
+	border: 8px outset transparent; 
+}
+.selectedImage {
+	border: 3px solid red;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.serverResponseLabelError {
+  color: red;
+}
+
+#closeButton {
+  margin: 15px 6px 6px;
+}

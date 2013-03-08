@@ -1,0 +1,2 @@
+serviceClass: com.appspot.sendmail.client.FileList
+path: 4FC4467485FCA082382BE1E350F0B611.gwt.rpc
